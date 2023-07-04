@@ -7,11 +7,11 @@ else
     puts "Voici la pyramide :"
 
     iteration = 1
-    whitespace = 1
+    hastag = 1
     while iteration <= size 
         print ' ' * (size - iteration)
-        puts '#' * whitespace
+        puts '#' * hastag
         iteration += 1
-        whitespace += 2
+        hastag += 2
     end
 end
